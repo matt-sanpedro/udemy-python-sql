@@ -7,6 +7,7 @@ print(f"Keys: {raw_csv_data.keys()}")
 # copy the dataframe
 # good practice: changes you made 
 df = raw_csv_data.copy()
+print(df)
 
 # apply dataframe view settings
 pd.options.display.max_columns = None
